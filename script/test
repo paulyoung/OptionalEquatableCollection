@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+xcodebuild -workspace OptionalEquatableCollection.xcworkspace -scheme OptionalEquatableCollection-Mac -sdk macosx clean test
+xcodebuild -workspace OptionalEquatableCollection.xcworkspace -scheme OptionalEquatableCollection-iOS -sdk iphonesimulator clean test

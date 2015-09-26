@@ -1,0 +1,5 @@
+[submodule "Carthage/Checkouts/Nimble"]
+	url = https://github.com/Quick/Nimble.git
+[submodule "Carthage/Checkouts/Quick"]
+	path = Carthage/Checkouts/Quick
+	url = https://github.com/Quick/Quick.git
