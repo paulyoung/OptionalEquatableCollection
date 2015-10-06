@@ -19,6 +19,8 @@
 		2CA1299C1BC468A4006022FA /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA129931BC467B4006022FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CA1299D1BC468B2006022FA /* Nimble.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1298E1BC467A5006022FA /* Nimble.framework */; };
 		2CA1299E1BC468B2006022FA /* Quick.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1298F1BC467A5006022FA /* Quick.framework */; };
+		2CA129A01BC46E1B006022FA /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA1298E1BC467A5006022FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CA129A11BC46E1B006022FA /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA1298F1BC467A5006022FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CD0B6001BB60828008F2AD5 /* OptionalEquatableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */; settings = {ASSET_TAGS = (); }; };
 		2CD0B60C1BB60828008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; };
@@ -59,6 +61,17 @@
 			files = (
 				2CA1299B1BC468A4006022FA /* Nimble.framework in CopyFiles */,
 				2CA1299C1BC468A4006022FA /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA1299F1BC46E0D006022FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CA129A01BC46E1B006022FA /* Nimble.framework in CopyFiles */,
+				2CA129A11BC46E1B006022FA /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +282,7 @@
 				2CD0B6201BB60865008F2AD5 /* Sources */,
 				2CD0B6211BB60865008F2AD5 /* Frameworks */,
 				2CD0B6221BB60865008F2AD5 /* Resources */,
+				2CA1299F1BC46E0D006022FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
