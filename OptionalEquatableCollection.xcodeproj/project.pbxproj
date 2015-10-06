@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C879F0B1BC45B3D00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; settings = {ASSET_TAGS = (); }; };
+		2C879F0C1BC45B3E00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; settings = {ASSET_TAGS = (); }; };
+		2C879F101BC45BAE00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
+		2C879F111BC45BAF00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6001BB60828008F2AD5 /* OptionalEquatableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */; settings = {ASSET_TAGS = (); }; };
 		2CD0B60C1BB60828008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; };
@@ -43,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C879F0A1BC45B3D00282533 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		2C879F0D1BC45B6500282533 /* SetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetSpec.swift; sourceTree = "<group>"; };
 		2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionalEquatableCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalEquatableCollection.h; sourceTree = "<group>"; };
 		2CD0B6011BB60828008F2AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 				2CD0B6011BB60828008F2AD5 /* Info.plist */,
 				2CD0B6341BB60949008F2AD5 /* Array.swift */,
 				2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */,
+				2C879F0A1BC45B3D00282533 /* Set.swift */,
 			);
 			path = OptionalEquatableCollection;
 			sourceTree = "<group>";
@@ -133,6 +140,7 @@
 				2CD0B60D1BB60828008F2AD5 /* Info.plist */,
 				2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */,
 				2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */,
+				2C879F0D1BC45B6500282533 /* SetSpec.swift */,
 				2CD0B6371BB60F02008F2AD5 /* Nimble.framework */,
 				2CD0B6381BB60F02008F2AD5 /* Quick.framework */,
 			);
@@ -315,6 +323,7 @@
 			files = (
 				2CD0B6361BB60949008F2AD5 /* Array.swift in Sources */,
 				2CD0B6451BB61F39008F2AD5 /* Dictionary.swift in Sources */,
+				2C879F0C1BC45B3E00282533 /* Set.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */,
 				2CD0B60C1BB60828008F2AD5 /* ArraySpec.swift in Sources */,
+				2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */,
+				2C879F101BC45BAE00282533 /* SetSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +343,7 @@
 			files = (
 				2CD0B6351BB60949008F2AD5 /* Array.swift in Sources */,
 				2CD0B6441BB61F39008F2AD5 /* Dictionary.swift in Sources */,
+				2C879F0B1BC45B3D00282533 /* Set.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */,
 				2CD0B6331BB608EE008F2AD5 /* ArraySpec.swift in Sources */,
+				2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */,
+				2C879F111BC45BAF00282533 /* SetSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
