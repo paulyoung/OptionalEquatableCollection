@@ -11,6 +11,16 @@
 		2C879F0C1BC45B3E00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; settings = {ASSET_TAGS = (); }; };
 		2C879F101BC45BAE00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2C879F111BC45BAF00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
+		2CA129961BC46869006022FA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA1298E1BC467A5006022FA /* Nimble.framework */; };
+		2CA129971BC46869006022FA /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA1298F1BC467A5006022FA /* Quick.framework */; };
+		2CA129981BC46872006022FA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA129921BC467B4006022FA /* Nimble.framework */; };
+		2CA129991BC46872006022FA /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA129931BC467B4006022FA /* Quick.framework */; };
+		2CA1299B1BC468A4006022FA /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA129921BC467B4006022FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CA1299C1BC468A4006022FA /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA129931BC467B4006022FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CA1299D1BC468B2006022FA /* Nimble.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1298E1BC467A5006022FA /* Nimble.framework */; };
+		2CA1299E1BC468B2006022FA /* Quick.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2CA1298F1BC467A5006022FA /* Quick.framework */; };
+		2CA129A01BC46E1B006022FA /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA1298E1BC467A5006022FA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CA129A11BC46E1B006022FA /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CA1298F1BC467A5006022FA /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2CD0B6001BB60828008F2AD5 /* OptionalEquatableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */; settings = {ASSET_TAGS = (); }; };
 		2CD0B60C1BB60828008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; };
@@ -19,10 +29,6 @@
 		2CD0B6331BB608EE008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6351BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6361BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6391BB60F02008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; };
-		2CD0B63A1BB60F02008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; };
-		2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; settings = {ASSET_TAGS = (); }; };
-		2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; settings = {ASSET_TAGS = (); }; };
 		2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6441BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; settings = {ASSET_TAGS = (); }; };
@@ -46,9 +52,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2CA1299A1BC4689A006022FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CA1299B1BC468A4006022FA /* Nimble.framework in CopyFiles */,
+				2CA1299C1BC468A4006022FA /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA1299F1BC46E0D006022FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2CA129A01BC46E1B006022FA /* Nimble.framework in CopyFiles */,
+				2CA129A11BC46E1B006022FA /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2C879F0A1BC45B3D00282533 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		2C879F0D1BC45B6500282533 /* SetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetSpec.swift; sourceTree = "<group>"; };
+		2CA1298E1BC467A5006022FA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		2CA1298F1BC467A5006022FA /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		2CA129921BC467B4006022FA /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		2CA129931BC467B4006022FA /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
 		2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionalEquatableCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalEquatableCollection.h; sourceTree = "<group>"; };
 		2CD0B6011BB60828008F2AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +93,6 @@
 		2CD0B61B1BB60865008F2AD5 /* OptionalEquatableCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionalEquatableCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B6241BB60865008F2AD5 /* OptionalEquatableCollection-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionalEquatableCollection-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B6341BB60949008F2AD5 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		2CD0B6371BB60F02008F2AD5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD0B6381BB60F02008F2AD5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionarySpec.swift; sourceTree = "<group>"; };
 		2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,9 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA129981BC46872006022FA /* Nimble.framework in Frameworks */,
 				2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */,
-				2CD0B6391BB60F02008F2AD5 /* Nimble.framework in Frameworks */,
-				2CD0B63A1BB60F02008F2AD5 /* Quick.framework in Frameworks */,
+				2CA129991BC46872006022FA /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,15 +126,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA129961BC46869006022FA /* Nimble.framework in Frameworks */,
 				2CD0B6251BB60865008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */,
-				2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */,
-				2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */,
+				2CA129971BC46869006022FA /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA1298C1BC46771006022FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CA1298E1BC467A5006022FA /* Nimble.framework */,
+				2CA1298F1BC467A5006022FA /* Quick.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2CA1298D1BC4677D006022FA /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				2CA129921BC467B4006022FA /* Nimble.framework */,
+				2CA129931BC467B4006022FA /* Quick.framework */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
 		2CD0B5F21BB60828008F2AD5 = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +192,8 @@
 				2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */,
 				2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */,
 				2C879F0D1BC45B6500282533 /* SetSpec.swift */,
-				2CD0B6371BB60F02008F2AD5 /* Nimble.framework */,
-				2CD0B6381BB60F02008F2AD5 /* Quick.framework */,
+				2CA1298C1BC46771006022FA /* iOS */,
+				2CA1298D1BC4677D006022FA /* Mac */,
 			);
 			path = OptionalEquatableCollectionTests;
 			sourceTree = "<group>";
@@ -194,6 +245,7 @@
 				2CD0B6021BB60828008F2AD5 /* Sources */,
 				2CD0B6031BB60828008F2AD5 /* Frameworks */,
 				2CD0B6041BB60828008F2AD5 /* Resources */,
+				2CA1299A1BC4689A006022FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -230,6 +282,7 @@
 				2CD0B6201BB60865008F2AD5 /* Sources */,
 				2CD0B6211BB60865008F2AD5 /* Frameworks */,
 				2CD0B6221BB60865008F2AD5 /* Resources */,
+				2CA1299F1BC46E0D006022FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -311,6 +364,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA1299D1BC468B2006022FA /* Nimble.framework in Resources */,
+				2CA1299E1BC468B2006022FA /* Quick.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +521,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = OptionalEquatableCollection/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -487,6 +546,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = OptionalEquatableCollection/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -501,6 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.paulyoung.OptionalEquatableCollectionTests;
@@ -512,6 +579,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollectionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.paulyoung.OptionalEquatableCollectionTests;
@@ -529,6 +600,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollection/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -552,6 +627,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollection/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -569,6 +648,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollectionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -582,6 +665,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = OptionalEquatableCollectionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

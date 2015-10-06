@@ -3,7 +3,10 @@ osx_image: xcode7
 git:
   submodules: false
 before_install:
-  - brew update; brew update
-  - brew install carthage
+- brew update; brew update
+- brew install carthage
 install: script/update
 script: script/test
+env:
+  global:
+    secure: BzcSHfH81DFUz6GLhiKHB/cS6aZLGypieTNeNj0TWDoOZmqlbyDBubphRtofi3l+hO83/sF0XaxYlK8mL4Agzde8MYHxGhTjrBd69w3jZKw5bmSepnUyL19UBzhYUuLIS3anT7NN8ZCjG9bk9nd7z0YG08RK2p+o0vnUlS/xuLRujj1ARVhY8ooF/PDadYduK6eEDaJuuBGZXseqRxkRNwKFWTQTSFnvgP/9knWCfxK6pz9X1zfUZXcGIHhXPE3i8iWwcN9G/Ebv4y4NvfTY8GMpaVAWdxjs/jdzKpMdtt/1YW1TMwYaBMNRoX9Ieybj6EwOXqy3b/5+jgturaoqIoNdG3gmoA0e/0v7aULlfsR1Mf5rJRrf5uBymOcQU2Gx8Fz6qIbVYqOA/a02vHr3TY9I+mFShQY4sOlReCJfI97FCnkZCU1FqLzmoxgNvmAQ28y47Zay72IZuNztMwY0VckukOy5nVUoDQD72Hi6aTwuH2FRLg6vpk4SHOed79L2iTa3c8864kw9RBJm9dfXF66s653R1BFJ3h6xrDIG8wNc0pBv1i0pTTOnG0xzMU8pAYvwdsaQGE6MnbRh5SjLRjHgWiKl2pjPjOreLhe8iTJ0YF45bv1rHTd9jAe5g+3IOQaJaBI9XdI64JwPr3LgRBWpjXvi5Rk6YbHb4dttvqw=
