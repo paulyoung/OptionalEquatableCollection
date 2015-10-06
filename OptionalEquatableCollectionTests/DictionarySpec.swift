@@ -22,7 +22,7 @@ class DictionarySpec: QuickSpec {
                     }
                 }
                 
-                context("different key-value-pairs") {
+                context("different key-value pairs") {
                     it("should not be considered equal") {
                         let lhs: [String: Int]? = ["one": 1]
                         let rhs: [String: Int]? = ["two": 2]
