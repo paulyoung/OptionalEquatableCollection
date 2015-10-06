@@ -19,10 +19,6 @@
 		2CD0B6331BB608EE008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6351BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6361BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6391BB60F02008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; };
-		2CD0B63A1BB60F02008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; };
-		2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; settings = {ASSET_TAGS = (); }; };
-		2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; settings = {ASSET_TAGS = (); }; };
 		2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
 		2CD0B6441BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; settings = {ASSET_TAGS = (); }; };
@@ -58,8 +54,6 @@
 		2CD0B61B1BB60865008F2AD5 /* OptionalEquatableCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionalEquatableCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B6241BB60865008F2AD5 /* OptionalEquatableCollection-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptionalEquatableCollection-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B6341BB60949008F2AD5 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		2CD0B6371BB60F02008F2AD5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD0B6381BB60F02008F2AD5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionarySpec.swift; sourceTree = "<group>"; };
 		2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */,
-				2CD0B6391BB60F02008F2AD5 /* Nimble.framework in Frameworks */,
-				2CD0B63A1BB60F02008F2AD5 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD0B6251BB60865008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */,
-				2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */,
-				2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +131,6 @@
 				2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */,
 				2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */,
 				2C879F0D1BC45B6500282533 /* SetSpec.swift */,
-				2CD0B6371BB60F02008F2AD5 /* Nimble.framework */,
-				2CD0B6381BB60F02008F2AD5 /* Quick.framework */,
 			);
 			path = OptionalEquatableCollectionTests;
 			sourceTree = "<group>";
