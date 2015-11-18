@@ -5,6 +5,6 @@ git:
 before_install:
   - brew update; brew update
   - brew install carthage
-  - git submodule init
+  - git submodule update --init
 install: script/update
 script: script/test
