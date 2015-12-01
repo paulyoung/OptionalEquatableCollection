@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C879F0B1BC45B3D00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; settings = {ASSET_TAGS = (); }; };
-		2C879F0C1BC45B3E00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; settings = {ASSET_TAGS = (); }; };
-		2C879F101BC45BAE00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
-		2C879F111BC45BAF00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; settings = {ASSET_TAGS = (); }; };
+		2C879F0B1BC45B3D00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; };
+		2C879F0C1BC45B3E00282533 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0A1BC45B3D00282533 /* Set.swift */; };
+		2C879F101BC45BAE00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; };
+		2C879F111BC45BAF00282533 /* SetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C879F0D1BC45B6500282533 /* SetSpec.swift */; };
 		2CD0B6001BB60828008F2AD5 /* OptionalEquatableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */; settings = {ASSET_TAGS = (); }; };
+		2CD0B6071BB60828008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B5FC1BB60828008F2AD5 /* OptionalEquatableCollection.framework */; };
 		2CD0B60C1BB60828008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; };
-		2CD0B6251BB60865008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B61B1BB60865008F2AD5 /* OptionalEquatableCollection.framework */; settings = {ASSET_TAGS = (); }; };
+		2CD0B6251BB60865008F2AD5 /* OptionalEquatableCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B61B1BB60865008F2AD5 /* OptionalEquatableCollection.framework */; };
 		2CD0B6321BB60896008F2AD5 /* OptionalEquatableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD0B5FF1BB60828008F2AD5 /* OptionalEquatableCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD0B6331BB608EE008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6351BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6361BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; settings = {ASSET_TAGS = (); }; };
+		2CD0B6331BB608EE008F2AD5 /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B60B1BB60828008F2AD5 /* ArraySpec.swift */; };
+		2CD0B6351BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; };
+		2CD0B6361BB60949008F2AD5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6341BB60949008F2AD5 /* Array.swift */; };
 		2CD0B6391BB60F02008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; };
 		2CD0B63A1BB60F02008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; };
-		2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; settings = {ASSET_TAGS = (); }; };
-		2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; settings = {ASSET_TAGS = (); }; };
-		2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6441BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; settings = {ASSET_TAGS = (); }; };
-		2CD0B6451BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; settings = {ASSET_TAGS = (); }; };
+		2CD0B63B1BB60F73008F2AD5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6371BB60F02008F2AD5 /* Nimble.framework */; };
+		2CD0B63C1BB60F76008F2AD5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0B6381BB60F02008F2AD5 /* Quick.framework */; };
+		2CD0B63E1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; };
+		2CD0B63F1BB611D8008F2AD5 /* DictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B63D1BB611D8008F2AD5 /* DictionarySpec.swift */; };
+		2CD0B6441BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; };
+		2CD0B6451BB61F39008F2AD5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0B6431BB61F39008F2AD5 /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,7 +248,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Paul Young";
 				TargetAttributes = {
 					2CD0B5FB1BB60828008F2AD5 = {
@@ -394,6 +394,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
